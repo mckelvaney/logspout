@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM resin/armhf-alpine:latest
 ENTRYPOINT ["/bin/logspout"]
 VOLUME /mnt/routes
 EXPOSE 80
